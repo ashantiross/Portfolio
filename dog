@@ -2,15 +2,15 @@
 <html>
 <body>
 
-<p>Click the button to trigger a function that will output "dog3.jpg"</p>
+<p>ASHanti RoSs</p>
 
-<button onclick="myFunction()">Click me</button>
-
-<p id="demo"></p>
+<p>Click anywhere in this window to change the background color of body.</p>
 
 <script>
+window.onclick = myFunction;
+
 function myFunction() {
-    document.getElementById("demo").innerHTML = "dog3.jpg";
+    document.getElementsByTagName("BODY")[0].style.backgroundColor = "orange";
 }
 </script>
 
